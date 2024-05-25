@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     background-image: url("images/fundo.jpg");
     background-repeat: no-repeat;
@@ -15,13 +14,11 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-
 .titulo {
     font-family: "Poetsen One", sans-serif;
     margin: 5px 5px 25px 5px;
     padding: 0;
 }
-
 .formulario {
     border: 2px solid #CCC;
     border-radius: 20px;
@@ -34,11 +31,9 @@ body {
     position: relative;
     align-content: center;
 }
-
 .formulario .subtitulo {
     text-align: center;
 }
-
 .formulario input {
     border: 0.5px solid #CCC;
     height: 25px;
@@ -47,7 +42,6 @@ body {
     align-self: center;
     box-shadow: inset 1px 1px 1px rgba(0,0,0,0.2);
 }
-
 .formulario button {
     align-self: center;
     width: 130px;
@@ -60,7 +54,6 @@ body {
     text-align: center;
     transition: width 0.7s;
 }
-
 #listaFilmes {
     margin: 10px;
     padding: 10px;
@@ -71,7 +64,6 @@ body {
     justify-content: space-evenly;
     gap: 10px;
 }
-
 #listaFilmes li {
     text-align: center;
     border: solid 1px black;
@@ -93,7 +85,6 @@ li #criar{
     height: 30px;
     width: 60px;
 }
-
 li #apagar{
     background-color: red;
     border: none;
