@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lista de Filmes</title>
+        <script src="https://kit.fontawesome.com/129b440489.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/animacoes.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poetsen+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="titulo">Minha lista de Filmes</h1>
+        <form class="formulario">
+            <h2 class="subtitulo">Adicionar filme</h2>
+            <div>
+                <input type="text" id="filme" placeholder="Digite o nome do filme"/>
+            </div>
+            <div>
+                <input type="date" id="data"/>
+            </div>
+            <div>
+                <input type="text" id="diretor" placeholder="Digite o diretor do filme"/>
+            </div>
+            <button id="btnCriar" value="criar">Criar</button>
+        </form>
+
+        <ul id="listaFilmes"></ul>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
